@@ -16,7 +16,7 @@ const modelsDir = path.join(__dirname, "..", "models");
 // Url to download model, if not present in model folder
 const modelUri = "hf:mradermacher/NileChat-3B-ft-base-GGUF:Q4_K_M";
 
-console.log("Starting up Deepseek");
+console.log("Starting up Nile Chat");
 
 const llama = await getLlama();
 const model = await llama.loadModel({
