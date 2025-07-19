@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const modelsDir = path.join(__dirname, "..", "models");
 
 // Url to download model, if not present in model folder
-const modelUri = "hf:mradermacher/DeepSeek-R1-Distill-Qwen-7B-GGUF:Q4_K_M";
+const modelUri = "hf:mradermacher/NileChat-3B-ft-base-GGUF:Q4_K_M";
 
 console.log("Starting up Deepseek");
 
