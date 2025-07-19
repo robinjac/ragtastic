@@ -1,6 +1,9 @@
 # dependencies (bun install)
 node_modules
 
+# folder to store the downloaded models
+models
+
 # output
 out
 dist

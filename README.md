@@ -1,4 +1,6 @@
-# ragtastic
+# Miniml ai chat app, using Deepseek R1
+
+Requires [bun](https://bun.sh/) 🚀
 
 To install dependencies:
 
@@ -6,10 +8,8 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To start and have fun:
 
 ```bash
-bun run index.ts
+bun start
 ```
-
-This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
