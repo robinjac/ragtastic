@@ -1,4 +1,4 @@
-# Miniml ai chat app, using Deepseek R1
+# Miniml ai chat app, using Nile Chat
 
 Requires [bun](https://bun.sh/) 🚀
 
