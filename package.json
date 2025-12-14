@@ -6,9 +6,11 @@
   "main": "backend/index.ts",
   "module": "backend/index.ts",
   "scripts": {
-    "start": "bun --hot backend/index.ts"
+    "start": "bun --hot backend/index.ts",
+    "start:transcriber": "bun --hot other/index.html"
   },
   "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
     "bun-plugin-tailwind": "^0.0.14",
     "lucide-react": "^0.475.0",
     "node-llama-cpp": "^3.10.0",
